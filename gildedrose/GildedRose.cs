@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 
-namespace csharpcore
+namespace GildedRoseKata.CSharp
 {
     public class GildedRose
     {
-        IList<Item> Items;
+        IList<Item> Items; // DO NOT TOUCH
+
         public GildedRose(IList<Item> Items)
         {
             this.Items = Items;

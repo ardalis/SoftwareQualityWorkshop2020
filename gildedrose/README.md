@@ -34,6 +34,10 @@ Feel free to make any changes to the UpdateQuality method and add any new code a
 
 Just for clarification, an item can never have its Quality increased above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
 
+## Approval Tests
+
+The sample includes an Approval Test which you can use as an overall end-to-end test if you want. More on how it works can be found [here](https://github.com/approvals/ApprovalTests.Net).
+
 ## Extra Credit
 
 - Item categories are determined by whether they contain a given string in their name (e.g. "Aged Brie" or "Sulfuras" or "Backstage passes")
